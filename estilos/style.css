@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+/* Versão mobile */
+
 /*
     Paleta de cores
     Verde: #49a09d
@@ -37,6 +39,9 @@ section#login{
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.541);
+
+    transition: width 0.3s, heigth 0.3s; /*Animação na transição da largua e do tamanho*/
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem{
