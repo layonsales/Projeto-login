@@ -33,13 +33,13 @@
     }
 
     section#login > div#imagem{
-        float: left; /*Colocando a imagem para a esquerda*/
+        float: right; /*Colocando a imagem para a esquerda*/
         width: 50%;
         height: 100%;
     }
 
     section#login > div#formulario{
-        float: right;
+        float: left;
         width: 50%;
     }
 }
